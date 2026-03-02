@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #c61c96;
+    background-image: linear-gradient(135deg, #7f1449 0%, #674b83 100%);
+    min-height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+}
+
+.foto{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+    border: 5px solid #ff69b4;
+    box-shadow: 0 0 15px #ff69b4;
+}
+
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.form-check {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.form-check-label {
+  color: #ad1457;
+}
+.btn-primary {
+  background-color: #ff4081;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #e91e63;
+}
+
+.btn-primary:active {
+  background-color: #c2185b;
+}
+
+.form-control {
+  background-color: #fff0f5;
+  border: 2px solid #ff69b4;
+}
+
+.form-control:focus {
+  border-color: #ff1493;
+  box-shadow: 0 0 5px #ff69b4;
+}
